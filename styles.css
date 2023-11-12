@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #111;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+div {
+	display: inline-block;
+}
+
+nav {
+	background: transparent;
+	height: 64px;
+	padding: 0 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 0 0 auto;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 0.2px 5px #fff;
+}
+
+ul	{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+h1 {
+	color: #0070ff;
+	font-size: 2.8em;
+	margin: 16px;
+}
+
+h2 {
+	color: #999;
+	font-size: 3.5em;
+	margin: 64px 0 32px;
+}
+
+h3 {
+	font-size: 1.8em;
+	margin: 16px 0 32px;
+}
+
+p {
+	margin: 16px;
+	font-size: 1.2em;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: enter;
+	flex: 0 0 auto;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+	font-size: 1.5em;
+}
+
+.container {
+	display: flex;
+}
+
+#main {
+	padding: 20px;
+	min-height: 110vh;
+}
+
+.container__left, .container__right {
+	height: 60vh;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container__left {
+	width: 30%;
+	padding: 32px 8px 80px 8px;
+}
+
+.container__right {
+	align-items: end;
+	width: 50%;
+}
+
+#projects, #skills, #contact {
+	flex-direction: column;
+	align-items: center;
+}
+
+#projects {
+	background: #fff;
+	min-height: 130vh;
+}
+
+.projects_title {
+	color: #000;
+}
+
+.projects {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.projects__container {
+	border: 2px solid #000;
+	height: 400px;
+	width: 600px;
+	margin: 32px;
+}
+
+.projects__container a img {
+	object-fit: cover;
+	max-width: 100%;
+	height: 100%;
+}
+
+.skills_title {
+	color: #fff;
+}
+
+.tech {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #222;
+}
+
+.tech__container {
+	width: 256px;
+	height: 280px;
+	margin: 16px 32px 32px;
+}
+
+.thechnology {
+	display: flex;
+	justify-content: center;
+}
+
+.tech__container a img {
+	height: 256px;
+	width: auto;
+}
+
+#skills .nothing_para, #contact .nothing_para {
+	margin: 8px 0 64px;
+	font-weight: bold;
+}
+
+#contact .nothing_para {
+	color: #000;
+}
+
+.contact_title {
+	color: #000;
+}
+
+#contact {
+	background: #fff;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#copyright {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 24px;
+}
