@@ -104,12 +104,8 @@ p {
 }
 
 #projects {
-	background: #fff;
+	background: #151515;
 	min-height: 130vh;
-}
-
-.projects_title {
-	color: #000;
 }
 
 .projects {
@@ -131,15 +127,10 @@ p {
 	height: 100%;
 }
 
-.skills_title {
-	color: #fff;
-}
-
 .tech {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background: #222;
 }
 
 .tech__container {
@@ -163,16 +154,8 @@ p {
 	font-weight: bold;
 }
 
-#contact .nothing_para {
-	color: #000;
-}
-
-.contact_title {
-	color: #000;
-}
-
 #contact {
-	background: #fff;
+	background: #151515;
 }
 
 footer {
